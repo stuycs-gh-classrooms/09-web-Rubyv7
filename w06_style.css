@@ -4,26 +4,26 @@ background-color: darkblue
 }
 
 p
-{fontsize 16px
+{fontsize 16px;
 font-family: "serif"
 }
 
 body
-{text-align: center}
+{text-align: center;}
 
 h1
 {
-font-weight: bold}
+font-weight: bold;}
 
 li
 {
-color: pink
+color: pink;
 }
 
 img
  {
-  height: 20px
-border: 1px solid green
+  height: 20px;
+border: 1px solid green;
 }
 
  
