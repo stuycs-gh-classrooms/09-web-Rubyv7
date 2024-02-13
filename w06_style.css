@@ -20,9 +20,10 @@ li
 color: pink
 }
 
-img{
+img
+ {
   height: 20px
- border: solid
+border: 1px solid green
 }
 
  
