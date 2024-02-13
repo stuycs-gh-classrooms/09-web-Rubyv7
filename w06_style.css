@@ -8,11 +8,11 @@ p
 font-family: "serif"
 }
 
-h2
+body
 {text-align: center}
 
 h1
-{text-align: center
+{
 font-weight: bold}
 
 li
@@ -21,6 +21,7 @@ color: pink
 }
 
 img
- {height: 200px}
+ {height: 200px
+ border: solid}
 
  
