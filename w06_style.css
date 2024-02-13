@@ -1,5 +1,6 @@
-html {
-background-color darkblue
+html 
+{
+background-color: darkblue
 }
 
 p
@@ -15,6 +16,6 @@ h1
 
 li
 {
-color: grey
+color: pink
 }
 
