@@ -12,10 +12,15 @@ h2
 {text-align: center}
 
 h1
-{text-align: center}
+{text-align: center
+font-weight: bold}
 
 li
 {
 color: pink
 }
 
+img
+ {height: 200px}
+
+ 
