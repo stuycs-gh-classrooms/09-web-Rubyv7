@@ -19,7 +19,8 @@ font-family: "serif"
 
 body
 {text-align: center;
-font-size: 20px
+font-size: 20px;
+ background-color: red;
 }
 a{
 color: black}
