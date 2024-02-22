@@ -1,4 +1,4 @@
-html 
+html https://github.com/stuycs-gh-classrooms/09-web-Rubyv7/blob/main/w06_style.css
 {
 background-color: deepskyblue
 }
@@ -9,8 +9,7 @@ font-family: "serif"
 }
 
 body
-{text-align: center;
-background-color: red;}
+{text-align: center;}
 
 h1
 {
