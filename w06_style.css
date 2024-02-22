@@ -9,7 +9,8 @@ font-family: "serif"
 }
 
 body
-{text-align: center;}
+{text-align: center;
+background-color: red;}
 
 h1
 {
