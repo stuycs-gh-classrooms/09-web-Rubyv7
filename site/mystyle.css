@@ -4,8 +4,7 @@ background-color: #03396c
 }
 nav {
   border-bottom: 1px solid black;
-  border-top: 1px solid black;
-  padding-top: 2px;
+   border-top: 1px solid black;
 }
 
 .crumbs ul {
