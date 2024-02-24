@@ -22,12 +22,13 @@ font-family: "serif"
 
 body
 {text-align: center;
-font-size: 30px;
+font-size: 22px;
 }
 
  .ee
  {  border-radius: 10px;
-  background-color: #D2042D ;}
+  background-color: #D2042D ;
+ border:1px solid black;}
 
 a
  {
