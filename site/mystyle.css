@@ -30,7 +30,6 @@ font-size: 22px;
  height: 20em;
   margin-top: 2em;
   margin-left: 20em; 
-  float:left
 }
 
 a
@@ -62,6 +61,7 @@ img
  {
   height: 250px;
 border: 2px solid black;
+     float:left;
 }
 
 
