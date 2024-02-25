@@ -7,9 +7,9 @@ nav {
    border-top: 1px solid black;
 }
 
-.crumbs ul {
+/* .crumbs ul {
   list-style-type: none;
-}
+} */
 .crumb {
   display: inline-block;
 }
@@ -45,7 +45,7 @@ color: black;
   color: #fff;
 }
 .crumb {
-  background-color: rgb(179 57 81);
+  background-color: #D2042D;
   color: #fff;
   text-decoration: none;
   padding: 1em 2em;
