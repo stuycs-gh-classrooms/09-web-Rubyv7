@@ -40,6 +40,16 @@ a
 color: black;
  text-decoration: none}
 
+ .crumbs a:hover {
+  background-color: rgb(66 28 40);
+  color: #fff;
+}
+.crumb {
+  background-color: rgb(179 57 81);
+  color: #fff;
+  text-decoration: none;
+  padding: 1em 2em;
+}
 
 h1
 {
