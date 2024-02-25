@@ -29,11 +29,11 @@ font-size: 22px;
  {  border-radius: 10px;
   background-color: #D2042D ;
  border:1px solid black;
-   width: 1550px;
- height: 350px;
-/*   margin-top: 30px;
-  margin-left: 140px; */
- text-align: center;}
+   width: 1550em;
+ height: 350em;
+  margin-top: 30em;
+  margin-left: 140em; 
+}
 
 a
  {
