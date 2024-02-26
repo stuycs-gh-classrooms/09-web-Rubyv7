@@ -23,15 +23,15 @@ font-family: "serif"
 }
 body
 { overflow: auto;
- /* text-align: center;
-font-size: 22px; */
+ text-align: center;
+font-size: 22px; 
 }
 
  .ee
  {  border-radius: 10px;
   background-color: #D2042D ;
  border:1.5px solid black;
-   width: 40em;
+   width: 30em;
  height: 20em;
   margin-top: 2em;
   margin-left: 20em; 
