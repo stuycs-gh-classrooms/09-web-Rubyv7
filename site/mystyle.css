@@ -21,6 +21,8 @@ font-family: "serif"
 {
   display: flex;
   margin-top: 2em;
+  width: 10em;
+  overflow: auto; 
 }
 body
 { overflow: auto;
