@@ -1,7 +1,6 @@
 html 
 {
-background-color: #03396c 
-  overflow: auto;
+background-color: #03396c; 
 }
 nav {
   border-bottom: 1px solid black;
@@ -18,8 +17,12 @@ p
 font-family: "serif"
 }
 
+ .woo
+{
+  display: flex;
+}
 body
-{ display: inline-block;
+{ overflow: auto;
  /* text-align: center;
 font-size: 22px; */
 }
