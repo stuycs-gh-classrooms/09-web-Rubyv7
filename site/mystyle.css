@@ -1,6 +1,7 @@
 html 
 {
 background-color: #03396c 
+  overflow: auto;
 }
 nav {
   border-bottom: 1px solid black;
@@ -18,7 +19,7 @@ font-family: "serif"
 }
 
 body
-{
+{ display: inline-block;
  /* text-align: center;
 font-size: 22px; */
 }
