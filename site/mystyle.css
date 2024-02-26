@@ -5,6 +5,7 @@ background-color: #03396c;
 nav {
   border-bottom: 1px solid black;
    border-top: 1px solid black;
+   border-radius: 10px;
 }
 
 .crumb {
@@ -15,6 +16,7 @@ nav {
 {
 display: flex;
 }
+
 p
 {fontsize 16px;
 font-family: "serif"
