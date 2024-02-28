@@ -20,8 +20,10 @@ display: flex;
 }
 
 p
-{fontsize 16px;
-font-family: "serif"
+{
+  fontsize 16px;
+font-family: "serif";
+  overflow: auto;
 }
 
  .woo
