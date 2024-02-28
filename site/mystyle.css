@@ -84,6 +84,6 @@ border: 2px solid black;
 {
   margin-left: 12em;
     display: flex;
-
+  overflow: auto; 
 }
 
