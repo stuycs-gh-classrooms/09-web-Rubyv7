@@ -41,7 +41,7 @@ font-size: 22px;
   background-color: #D2042D ;
  border:1.5px solid black;
    width: 50em;
- height: 20em;
+ height: 15em;
   margin-left: 5em; 
 }
 
@@ -82,7 +82,7 @@ border: 2px solid black;
 
 .hey
 {
-  margin-left: 12em
+  margin-left: 12em;
     overflow: auto; 
 }
 
