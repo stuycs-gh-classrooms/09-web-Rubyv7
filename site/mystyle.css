@@ -22,7 +22,7 @@ display: flex;
 p
 {
   fontsize 16px;
-font: 1.2rem "Fira Sans", sans-serif;
+font: 2rem, sans-serif;
   overflow: auto;
   margin-top: 1em;
 }
