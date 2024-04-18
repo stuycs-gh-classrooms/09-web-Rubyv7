@@ -3,6 +3,10 @@ html
 background-color: #03396c; 
 }
 
+h1
+{
+font-weight: bold;}
+
 img
  {
   height: 250px;
@@ -11,4 +15,9 @@ border: 2px solid black;
      margin-top: 2em;
     border-radius: 10px;
     margin-left: 2.1em;
+}
+
+h2
+{
+ fontsize 20px;
 }
