@@ -5,7 +5,9 @@ background-color: #89CFF0;
 
 h1
 {
-font-weight: bold;}
+font-weight: bold;
+ 
+}
 
 img
  {
@@ -18,6 +20,7 @@ img
 h2
 {
  fontsize: 22px;
+ margin-top: 1em
 }
 
  body
@@ -29,8 +32,7 @@ font-size: 18px;
 
 .ooo
 {
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-bottom: 3em;
 }
 
 code
