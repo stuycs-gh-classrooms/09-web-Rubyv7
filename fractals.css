@@ -20,7 +20,9 @@ h2
  fontsize 20px;
 }
 
-{ overflow: auto;
+ body
+{
+ overflow: auto;
  text-align: center;
 font-size: 22px; 
 }
