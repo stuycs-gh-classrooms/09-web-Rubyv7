@@ -26,6 +26,8 @@ Kochcurve
   <img src="Koch2SS.png" alt="Koch_Curve2">
   </div>
   </body>
+
+  <div class="ccc">
 <pre><code>
 def koch_curve2(t, depth, size, width):
     x = (random.randrange(2)) + 1
@@ -47,7 +49,7 @@ def koch_curve2(t, depth, size, width):
         t.lt(60)
         koch_curve2(t, depth-1, size, width * y)
 </code></pre>
-  
+  </div>
 
 
 <h2>
@@ -60,6 +62,8 @@ Sierpinski Triangle
       </div>
   The edited Sierpinski triangle has the top and bottom left triangles missing their bottom side, making a rhombus and another weird quadrilateral in the center. It's also purple. 
 
+  <div class="ccc">
+    
 <pre><code>
 def triangle(t, size):
     t.lt(60)
@@ -90,7 +94,7 @@ def sierpinski2(t, depth, size, scale_factor=1):
         t.fd(size/2)
         t.lt(120)
 </code></pre>
-
+</div>
 </body>
 
 
@@ -101,7 +105,9 @@ def sierpinski2(t, depth, size, scale_factor=1):
 
 <body>
   This tree is brown, has red apples and orange leaves on it. It randomly places an apple, which is a red circle, on the branches. (tree2(t, 4, 50, 20))
-
+</body>
+  <div class="ccc">
+    
 <pre><code>
 t.lt(90)
 t.pd()
@@ -129,7 +135,7 @@ def applerev(size):
         y = y - 1
 </code></pre>
   
-</body>
+</div>
   <div class="ooo">
 <img src="Triangle2SS.png" alt="Triangle2">
       </div>
