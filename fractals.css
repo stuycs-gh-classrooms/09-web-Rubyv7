@@ -22,9 +22,12 @@ h2
 
  body
 {
- padding-top: 20px;
  overflow: auto;
  text-align: center;
 font-size: 22px; 
 }
 
+.oo
+{
+  padding-top: 10px;
+}
