@@ -27,8 +27,13 @@ h2
 font-size: 18px; 
 }
 
-.oo
+.ooo
 {
   padding-top: 5px;
   padding-bottom: 5px;
+}
+
+code
+{
+ text-align: right;
 }
