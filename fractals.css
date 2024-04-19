@@ -27,7 +27,7 @@ h2
 {
  overflow: auto;
 font-size: 20px; 
- text-align: right
+ text-align: center
 }
 
 .ooo
@@ -38,5 +38,5 @@ font-size: 20px;
 
 .ccc
 {
- text-align: right;
+ text-align: left;
 }
