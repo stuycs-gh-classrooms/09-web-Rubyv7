@@ -126,7 +126,7 @@ t.pd()
 def apple(size):
     t.pencolor("red")
     y = 30
-    while y != 90:
+    while y != 180:
         x = 360
         while x != 0:
             t.lt(y)
@@ -136,7 +136,7 @@ def apple(size):
         
 def applerev(size):
     t.pencolor("red")
-    y = 90
+    y = 180
     while y != 30:
         x = 360
         while x != 0:
@@ -144,8 +144,30 @@ def applerev(size):
             t.fd(size)
             x = x - 30
         y = y - 1
-</code></pre>
-  
+
+def tree2(t, depth, size, angle):
+    t.pencolor("brown")
+    if depth == 0:
+        t.pencolor("orange")
+        t.fd(size)
+        t.bk(size)
+        t.pencolor("brown")
+    else:
+        t.fd(size)
+        a = random.randrange(4)
+        if a > 1 and depth < 2:
+            apple(size/10)
+            applerev(size/10)
+            t.pencolor("green")
+        t.rt(angle)
+        tree2(t, depth-1, size, angle)
+        t.pencolor("brown")
+        a = random.randrange(4)
+        t.lt(2 * angle)
+        tree2(t, depth-1, size, angle)
+        t.rt(angle)
+        t.bk(size)
+
 </div>
 
 </html>
