@@ -10,11 +10,11 @@ font-weight: bold;}
 img
  {
   height: 250px;
-border: 2px solid black;
+border: 2px white;
      float:right;
      margin-top: 2em;
-    border-radius: 10px;
-    margin-left: 2.1em;
+    border-radius: 5px;
+    margin-left: 6.1em;
 }
 
 h2
