@@ -23,7 +23,25 @@ Kochcurve
   <img src="Koch2SS.png" alt="Koch_Curve2">
     </div>
 <pre><code>
-
+def koch_curve2(t, depth, size, width):
+    x = (random.randrange(2)) + 1
+    y = (random.randrange(2)) + 1
+    t.width(width)
+    if (depth == 1):
+        t.fd(size)
+    else:
+        c = random.randrange(10)
+        if c < 4:
+                t.pencolor("pink")
+        else:
+                t.pencolor("blue")
+        koch_curve2(t, depth-1, size, width * x)
+        t.lt(60)
+        koch_curve2(t, depth-1, size, width * y)
+        t.rt(120)
+        koch_curve2(t, depth-1, size, width * x)
+        t.lt(60)
+        koch_curve2(t, depth-1, size, width * y)
 </code></pre>
   
 </body>
@@ -40,7 +58,34 @@ Sierpinski Triangle
   The edited Sierpinski triangle has the top and bottom left triangles missing their bottom side, making a rhombus and another weird quadrilateral in the center. It's also purple. 
 
 <pre><code>
+def triangle(t, size):
+    t.lt(60)
+    t.fd(size)
+    t.rt(120)
+    t.fd(size)
+    t.pu()
+    t.rt(120)
+    t.fd(size)
+    t.rt(180)
+    t.pd()
 
+def sierpinski2(t, depth, size, scale_factor=1):
+    if depth == 1:
+        triangle(t, size)
+    else:
+        t.pencolor("purple")
+        sierpinski2(t, depth-1, size/2)
+        t.fd(size/2)
+        sierpinski2(t, depth-1, size/2)
+        t.bk(size/2)
+        t.lt(60)
+        t.fd(size/2)
+        t.pencolor("green")
+        t.rt(60)
+        sierpinski2(t, depth-1, size/2)
+        t.rt(120)
+        t.fd(size/2)
+        t.lt(120)
 </code></pre>
 
 </body>
@@ -55,7 +100,30 @@ Sierpinski Triangle
   This tree is brown, has red apples and orange leaves on it. It randomly places an apple, which is a red circle, on the branches. (tree2(t, 4, 50, 20))
 
 <pre><code>
+t.lt(90)
+t.pd()
 
+def apple(size):
+    t.pencolor("red")
+    y = 30
+    while y != 90:
+        x = 360
+        while x != 0:
+            t.lt(y)
+            t.fd(size)
+            x = x - 30
+        y = y + 1
+        
+def applerev(size):
+    t.pencolor("red")
+    y = 90
+    while y != 30:
+        x = 360
+        while x != 0:
+            t.lt(y)
+            t.fd(size)
+            x = x - 30
+        y = y - 1
 </code></pre>
   
 </body>
