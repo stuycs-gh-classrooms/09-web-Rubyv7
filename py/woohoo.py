@@ -2,62 +2,31 @@
 print('Content-type: text/html\n')
 
 import random
+import cgitb #
+cgitb.enable()
+import cgi
+data = cgi.FieldStorage()
 
-
-def roll():
-    x = random.randrange(6) + 1
-    return x
-
-print(roll())
-
-def space():
-    x = roll()
-    if x == 1:
-        y = "You've encountered the Ghost"
-        print(monster(y))
-        s = ''
-        make_body(s)
-    elif x == 2:
-        y = "You've encountered the witch"
-        print(monster(y))
-        s = ''
-        make_body(s)
-    elif x == 3:
-        y = "Some birds chrip from afar"
-        print(monster(y))
-        s = ''
-        make_body(s)
-    elif x == 4:
-        y ="You've encountered a goblin"
-        print(monster(y))
-        s = ''
-        make_body(s)
-    elif x == 5:
-        y = "Hint: dont..."
-        print(monster(y))
-        s = ''
-        make_body(s)
-    elif x == 6:
-        y = "you've found a bag of gold!"
-        print(monster(y))
-        s = ''
-        make_body(s)
-        
-def monster(y):
-    title = y
-    head ="""
+html = """
     <!DOCTYPE html>
     <html lang="en">
-      <head>
-        <meta charset="utf-8">
-        <title>
+    <head>
+    <meta charset="utf-8">
+    <link href="woo.css" rel="stylesheet">
     """
-    head+= title + '</title></head>'
-    return head
+def ifin():
+    x = random.randrange(6) + 1
+    f = ''
+    if x <= 2:
+        f = '<h1> You died, would you like to try again? </h1> </head <\n>' + '<p>' + '<form action="woo.py" method="GET">' + '<input type="submit" name="submit" value="Try again!">' +'</p>'
+    elif x <= 5:
+        f = '<h1> You successfully survived, keep moving through the forest! </h1> </head <\n>' + '<form action="woo.py" method="GET">' + '<input type="submit" name="submit" value="Roll again!">'
+    if x == 6:
+        f ='<h1>You have won!</h1> </head> <\n>' + '<body> Would you like to play again?<form action="woo.py" method="GET">' + '<input type="submit" name="submit" value="Play again!">' +'</p>'
+    return f
+ 
 
-def make_body(s):
-    body = '<body>' + s + '</body></html>'
-    return body
-
-print(monster)
-        
+html +=  ifin()
+html += '</form>'
+html += '</html>'
+print(html)
